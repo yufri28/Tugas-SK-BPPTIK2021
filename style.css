@@ -1,0 +1,122 @@
+.container,
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #1b152c;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.judul-header {
+    color: white;
+    margin-top: 10%;
+    font-family: Arial;
+}
+
+.container-kal {
+    border-radius: 20px;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    background-color: #55917f;
+    align-items: center;
+}
+
+.input {
+    padding-left: 20px;
+    font-size: medium;
+    font-family: arial;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0e9e9;
+    width: 320px;
+    height: 46px;
+    color: #7e7979;
+    margin: 10px 0;
+}
+
+.text-input {
+    font-size: medium;
+    font-family: arial;
+    color: #7e7979;
+}
+
+#input-opr {
+    padding-left: 15px;
+    color: #7e7979;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    background-color: #f0e9e9;
+    width: 131px;
+    height: 46px;
+}
+
+small {
+    color: 1px solid red;
+    font-family: sans-serif;
+    color: #ecdfdf;
+}
+
+option {
+    font-size: larger;
+}
+
+p {
+    margin-top: -1px;
+    font-family: sans-serif;
+    color: #cfc1c1;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: arial;
+    font-size: larger;
+    color: #cfc1c1;
+    background-color: #3c467c;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 46px;
+    margin-left: 15px;
+}
+
+.btn:hover {
+    background-color: #4d5897;
+    color: #f0e9e9;
+}
+
+.btn-clear {
+    cursor: pointer;
+    font-family: arial;
+    font-size: larger;
+    color: #cfc1c1;
+    background-color: #a11010;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 46px;
+    margin-left: 15px;
+}
+
+.btn-clear:hover {
+    background-color: #4d5897;
+    color: #f0e9e9;
+}
+
+.form-input {
+    margin-bottom: 10%;
+    transform: translateY(1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    border-radius: 5px;
+    background-color: rgb(95, 35, 35);
+    padding: 5px 10px;
+    color: white;
+}
